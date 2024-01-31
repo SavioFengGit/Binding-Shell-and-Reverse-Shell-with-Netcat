@@ -1,5 +1,5 @@
 # Binding-Shell-and-reverse-Shell-with-Netcat
-Let's see how to Binding Shell and reverse Shell with Netcat <br>
+Let's see how to Bind Shell and reverse Shell with Netcat <br>
 ## Netcat
 Netcat is a command-line utility that reads and writes data across network connections, using the TCP or UDP protocols. It is also known as “the Swiss Army knife of TCP/IP networks” because it can perform many functions such as port scanning, file transfer, chat, and HTTP request. Netcat can operate in both server and client modes.
 
